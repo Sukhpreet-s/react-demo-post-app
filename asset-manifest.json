@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-demo-post-app/static/css/main.a409d2bf.chunk.css",
+    "main.js": "/react-demo-post-app/static/js/main.d42f1ee1.chunk.js",
+    "main.js.map": "/react-demo-post-app/static/js/main.d42f1ee1.chunk.js.map",
+    "runtime-main.js": "/react-demo-post-app/static/js/runtime-main.e9f89078.js",
+    "runtime-main.js.map": "/react-demo-post-app/static/js/runtime-main.e9f89078.js.map",
+    "static/js/2.c643d06c.chunk.js": "/react-demo-post-app/static/js/2.c643d06c.chunk.js",
+    "static/js/2.c643d06c.chunk.js.map": "/react-demo-post-app/static/js/2.c643d06c.chunk.js.map",
+    "index.html": "/react-demo-post-app/index.html",
+    "precache-manifest.a205c26af657ba16788688bf7fbc197c.js": "/react-demo-post-app/precache-manifest.a205c26af657ba16788688bf7fbc197c.js",
+    "service-worker.js": "/react-demo-post-app/service-worker.js",
+    "static/css/main.a409d2bf.chunk.css.map": "/react-demo-post-app/static/css/main.a409d2bf.chunk.css.map",
+    "static/js/2.c643d06c.chunk.js.LICENSE.txt": "/react-demo-post-app/static/js/2.c643d06c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e9f89078.js",
+    "static/js/2.c643d06c.chunk.js",
+    "static/css/main.a409d2bf.chunk.css",
+    "static/js/main.d42f1ee1.chunk.js"
+  ]
+}
