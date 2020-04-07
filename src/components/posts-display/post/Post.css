@@ -1,0 +1,8 @@
+.card {
+  width: 18rem;
+  text-align: left;
+  margin: 1rem;
+}
+button {
+  width: max-content;
+}
