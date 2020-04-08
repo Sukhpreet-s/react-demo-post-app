@@ -7,6 +7,12 @@ function PostForm({ setPosts }) {
   const [title, setTitle] = useState("");
   const [body, setBody] = useState("");
 
+  const handleClick = () => {
+    setPosts((prevPosts) => [...prevPosts, { id: prevPosts.length+1,title, body }]);
+    setTitle("");
+    setBody("");
+  }
+
   return (
     <div className="post-form">
       <input
@@ -22,7 +28,7 @@ function PostForm({ setPosts }) {
         onChange={(e) => setBody(e.target.value)}
       ></textarea>
       <button
-        onClick={() => setPosts((prevPosts) => [...prevPosts, { id: prevPosts.length+1,title, body }])}
+        onClick={handleClick}
       >
         Create Post
       </button>
