@@ -2,7 +2,7 @@ import React from "react";
 
 // stylesheet
 import "./PostDisplay.css";
-import Post from "./post/Post";
+import Post from "../post/Post";
 
 function PostDisplay({ posts, deletePost }) {
   return (
