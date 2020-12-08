@@ -1,4 +1,7 @@
 import React from "react";
+import { connect } from "react-redux";
+
+import { deletePost } from "store/store";
 
 // stylesheet
 import "./Post.css";
@@ -17,4 +20,7 @@ function Post({ id, title, body, deletePost }) {
   );
 }
 
-export default Post;
+export default connect(
+  null,
+  {deletePost}
+)(Post);

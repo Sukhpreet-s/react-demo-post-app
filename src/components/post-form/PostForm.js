@@ -1,14 +1,17 @@
 import React, { useState } from "react";
+import { connect } from "react-redux";
+
+import { addPost } from "store/store";
 
 // stylesheet
 import "./PostForm.css";
 
-function PostForm({ setPosts }) {
+function PostForm({ addPost }) {
   const [title, setTitle] = useState("");
   const [body, setBody] = useState("");
 
   const handleClick = () => {
-    setPosts((prevPosts) => [...prevPosts, { id: prevPosts.length+1,title, body }]);
+    addPost({title, body})
     setTitle("");
     setBody("");
   }
@@ -36,4 +39,7 @@ function PostForm({ setPosts }) {
   );
 }
 
-export default PostForm;
+export default connect(
+  null,
+  {addPost}
+)(PostForm);
